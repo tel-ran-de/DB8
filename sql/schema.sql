@@ -18,17 +18,17 @@ CREATE TABLE Student (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO Student (student_id, first_name, last_name, course_id)
-VALUES (3, 'Oleg', 'Milov',2),
-       (4, 'Mark', 'Tusov',1),
-       (5, 'Ivan', 'Pushkin',1),
-       (6, 'Tolik', 'Beresa',1),
-       (7, 'Vasja', 'Dub',2),
-       (8, 'Grisha', 'Novak',3),
-       (9, 'Ilja', 'Lenin',NULL),
-       (10, 'Petr', 'Perviy',NULL);
+  VALUES (3, 'Oleg', 'Milov',2),
+         (4, 'Mark', 'Tusov',1),
+         (5, 'Ivan', 'Pushkin',1),
+         (6, 'Tolik', 'Beresa',1),
+         (7, 'Vasja', 'Dub',2),
+         (8, 'Grisha', 'Novak',3),
+         (9, 'Ilja', 'Lenin',NULL),
+         (10, 'Petr', 'Perviy',NULL);
 
 INSERT INTO Course ( course_id, title, description)
-VALUES( 1, 'Java', 'Java Basics Programming'),
-      ( 2, 'Python', 'Python Basics Programming'),
-      ( 3, 'Database', 'DB Basics Programming');
+  VALUES( 1, 'Java', 'Java Basics Programming'),
+        ( 2, 'Python', 'Python Basics Programming'),
+        ( 3, 'Database', 'DB Basics Programming');
 
